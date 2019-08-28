@@ -1,40 +1,16 @@
 # Enviro+
+<img src="
+https://cdn.shopify.com/s/files/1/0174/1800/products/enviro-plus-shop-1_1024x1024.progressive.jpg?v=1565439541"
+   class="attempt-right print-hide" style="max-width:430px" /> 
+
 
 
 <p class="body-copy mk-paragraph" ><img src="https://cdn.shopify.com/s/files/1/0174/1800/products/Enviro-Plus-pHAT-on-white-2_256x256.progressive.jpg?v=1565439541"
-   class="attempt-right print-hide" style="max-width:430px" />
-
+   class="attempt-right print-hide" style="max-width:430px" /> 
 <p class="body-copy mk-paragraph" ><img src="https://cdn.shopify.com/s/files/1/0174/1800/products/Enviro-Plus-pHAT-on-white-3_256x256.progressive.jpg?v=1565439541"
    class="attempt-right print-hide" style="max-width:430px" />
 <p class="body-copy mk-paragraph" ><img src="https://cdn.shopify.com/s/files/1/0174/1800/products/Enviro_Plus_pHAT_2_of_4_256x256.progressive.JPG?v=1565439541"
    class="attempt-right print-hide" style="max-width:430px" />
-
-
-
-      
-        <a href="#" data-image="//cdn.shopify.com/s/files/1/0174/1800/products/Enviro-Plus-pHAT-on-white-2_1024x1024.jpg?v=1565439541">
-          <img loading="lazy" alt="A product image of Enviro+ for Raspberry Pi" src="//cdn.shopify.com/s/files/1/0174/1800/products/Enviro-Plus-pHAT-on-white-2_64x64.progressive.jpg?v=1565439541" data-hires="//cdn.shopify.com/s/files/1/0174/1800/products/Enviro-Plus-pHAT-on-white-2_256x256.progressive.jpg?v=1565439541" />
-        </a>
-      
-    
-  
-    
-      
-        <a href="#" data-image="//cdn.shopify.com/s/files/1/0174/1800/products/Enviro-Plus-pHAT-on-white-3_1024x1024.jpg?v=1565439541">
-          <img loading="lazy" alt="A product image of Enviro+ for Raspberry Pi" src="//cdn.shopify.com/s/files/1/0174/1800/products/Enviro-Plus-pHAT-on-white-3_64x64.progressive.jpg?v=1565439541" data-hires="//cdn.shopify.com/s/files/1/0174/1800/products/Enviro-Plus-pHAT-on-white-3_256x256.progressive.jpg?v=1565439541" />
-        </a>
-      
-    
-  
-    
-      
-        <a href="#" data-image="//cdn.shopify.com/s/files/1/0174/1800/products/Enviro_Plus_pHAT_2_of_4_1024x1024.JPG?v=1565439541">
-          <img loading="lazy" alt="A product image of Enviro+ for Raspberry Pi" src="//cdn.shopify.com/s/files/1/0174/1800/products/Enviro_Plus_pHAT_2_of_4_64x64.progressive.JPG?v=1565439541" data-hires="//cdn.shopify.com/s/files/1/0174/1800/products/Enviro_Plus_pHAT_2_of_4_256x256.progressive.JPG?v=1565439541" />
-        </a>
-
-
-
-
 
 
 </div>
