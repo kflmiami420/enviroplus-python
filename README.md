@@ -1,7 +1,6 @@
 # Enviro+
-<img src="
-https://cdn.shopify.com/s/files/1/0174/1800/products/enviro-plus-shop-1_1024x1024.progressive.jpg?v=1565439541"
-   class="attempt-right print-hide" style="max-width:430px" /> 
+<p class="body-copy mk-paragraph" ><img src="https://cdn.shopify.com/s/files/1/0174/1800/products/enviro-plus-shop-1_1024x1024.progressive.jpg?v=1565439541"
+   class="attempt-right print-hide" style="max-width:800px" /> 
 
 
 
