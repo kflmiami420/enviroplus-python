@@ -41,12 +41,17 @@
 <p><a href="/products/pms5003-particulate-matter-sensor-with-cable" target="_blank" rel="noopener noreferrer"><em>*particulate matter sensor available separately</em></a></p>
 <p>A couple of nice little extras... there's a spare ADC channel broken out on a header if you want to connect another analog sensor, along with I2C pins in the right configuration for plugging one of our <a href="https://shop.pimoroni.com/collections/pimoroni-breakouts">Pimoroni I2C breakouts</a> onto!</p>  
 <h2>Citizen science air quality monitoring</h2>
+
+<p> <p class="body-copy mk-paragraph" ><img src="  https://cdn.shopify.com/s/files/1/0174/1800/products/PMS5003_particulate_matter_sensor_with_cable_1_of_4_1024x1024.progressive.JPG?v=1560514915"
+   class="attempt-right print-hide" style="max-width:800px" /> </p>
+
+
+
 <p>We've developed this board in collaboration with the University of Sheffield, with the aim of letting you contribute real-time air quality data from your local area to open data projects like <a href="https://united-kingdom.maps.luftdaten.info" target="_blank" rel="noopener noreferrer">Luftdaten</a>.</p>
 <p>The alarming drop in our air quality is something that's really important to understand. Devices like Enviro+ allow fine-grained, detailed datasets that let us see shifts in air quality through time and across different areas of cities. The more devices that contribute data, the better quality the dataset becomes.</p>
 <p>Particulate matter (PM) is made up of tiny particles that are a mix of sizes and types, like dust, pollen, mould spores, smoke particles, organic particles and metal ions, and more. Particulates are much of what we think of as air pollution. They can be measured, in size and quantity, by particulate matter sensors like the <a href="https://shop.pimoroni.com/products/pms5003-particulate-matter-sensor-with-cable" target="_blank" rel="noopener noreferrer">PMS5003</a> that you can connect to Enviro+.</p>
 
-<p class="body-copy mk-paragraph" ><img src="  https://cdn.shopify.com/s/files/1/0174/1800/products/PMS5003_particulate_matter_sensor_with_cable_1_of_4_1024x1024.progressive.JPG?v=1560514915"
-   class="attempt-right print-hide" style="max-width:800px" /> 
+
    
 <p>The analog gas sensor can be used to make <strong>qualitative</strong> measurements of changes in gas concentrations, so you can tell broadly if the three groups of gases are increasing or decreasing in abundance. Without laboratory conditions or calibration, you won't be able to say <em>"the concentration of carbon monoxide is n parts per million"</em>, for example.</p>
 <p>Temperature, air pressure and humidity can all affect particulate levels (and the gas sensor readings) too, so the BME280 sensor on Enviro+ is really important to understanding the other data that Enviro+ outputs.</p>
