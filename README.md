@@ -3,9 +3,7 @@
 </div>
 
 
-    <a name="description"></a>
-    <article id="description">
-      <p>Monitor your world with Enviro+ for Raspberry Pi! There's a whole bunch of fancy environmental sensors on this board, and a gorgeous little full-colour LCD to display your data. It's the perfect way to get started with citizen science!</p>
+    
 <p>Designed for environmental monitoring, Enviro+ lets you measure air quality (pollutant gases and particulates*), temperature, pressure, humidity, light, and noise level. When combined with a <a href="/products/pms5003-particulate-matter-sensor-with-cable" target="_blank" rel="noopener noreferrer">particulate matter sensor</a>*, it's great for monitoring air quality just outside your house (more information below), or without the particulate sensor you can use it to monitor indoor conditions.</p>
 <p>Enviro+ is an affordable alternative to environmental monitoring stations that can cost tens of thousands of pounds and, best of all, it's small and hackable and lets you contribute your data to citizen science efforts to monitor air quality via projects like <a href="https://united-kingdom.maps.luftdaten.info" target="_blank" rel="noopener noreferrer">Luftdaten</a>.</p>
 <h2>Features</h2>
