@@ -1,3 +1,5 @@
+#
+#soon adding ADC analog reading of channel
 #auto.py
 #!/usr/bin/env python
 #added modes and renamed all of them 
