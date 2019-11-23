@@ -1,0 +1,74 @@
+#!/usr/bin/env python
+
+from envirophat import weather, light, analog, motion, leds
+from Adafruit_IO import Client, RequestError, Feed, Data
+
+# Personal Adafruit IO Key
+aio = Client('azcoigreach','72721e93f798ae240e6b1a82c044ed9820b053ca')
+
+
+# Select which sensors to use
+bmp280_enabled = True # Temp and Pressure
+tc3472_enabled = True # Light and Colour
+lsm303d_enabled = False # Motion and Heading
+ads1015_enabled = False # Analog inputs
+
+def tx_data(feed_name, measurement):
+    try:
+        io_feed = aio.feeds(feed_name)
+    except RequestError: # Doesn't exist, create a new feed
+        feed = Feed(name=feed_name)
+        io_feed = aio.create_feed(feed)
+    aio.send_data(io_feed.key, measurement)
+    return
+
+# Send the Enviro values to Adafruit IO feeds
+if bmp280_enabled:
+    # Temperature
+    t = round(weather.temperature(), 1)
+    tx_data('tempurature', t)
+
+    # Pressure
+    p = round((weather.pressure()/100), 2)
+    tx_data('pressure', p)
+
+if tc3472_enabled:
+    # Light
+    l = round(light.light(), 0)
+    tx_data('light', l)
+
+    # Colour
+    leds.on()
+    r, g, b = light.rgb()
+    leds.off()
+    tx_data('red', r)
+    tx_data('green', g)
+    tx_data('blue', b)
+
+if lsm303d_enabled:
+    # Motion
+    x, y, z = motion.accelerometer()
+    tx_data('motion_x', x)
+    tx_data('motion_y', y)
+    tx_data('motion_z', z)
+
+    # Heading
+    h = motion.heading()
+    tx_data('heading', h)
+
+if ads1015_enabled:
+    # Analog 0
+    a0 = round(analog.read(0), 2)
+    tx_data('analog_0', a0)
+
+    # Analog 1
+    a1 = round(analog.read(0), 2)
+    tx_data('analog_1', a1)
+
+    # Analog 2
+    a2 = round(analog.read(0), 2)
+    tx_data('analog_2', a2)
+
+    # Analog 3
+    a3 = round(analog.read(0), 2)
+    tx_data('analog_3', a3)
